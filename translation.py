@@ -7,17 +7,17 @@ class LuciferMoringstar(object):
     ABOUT_MSG = """
 🤖 My Name [{bot_name}](t.me/{bot_username})
 
-🧑 My Dev : [HOWTODO](t.me/howtodoyt)
+🧑 My Dev : [Decoder Seeman](t.me/mastertheblasterr)
 
 🧑 My Creator : {dev_name}
 
-📦 My Source : [Click Here](https://github.com/bossstory/LuciferMoringstar-Robot)
+📦 My Source : [GitHub](https://mastertheblasterr)
 
-📺 My Youtube : [Ckick Here](https://www.youtube.com/channel/UCohk_mpuW8SpgZMyOzRdKcA)
+📺 My Movie Channel : [Mkv RockerS](https://t.me/mkv_rockers)
 
-🏷️ My Updates : [HOW TO DO](t.me/HTDGROUPFORMOVIES)
+🏷️ My Updates : [Mkv RockerS](t.me/mkv_rockers)
 
-🗣️ My Support : [Any Doubt](t.me/howtodoyt)"""
+🗣️ My Support : [Any Doubt](t.me/mastertheblasterr)"""
 
     FILE_CAPTIONS = """Hello 👋 {mention}\n\n📁Title {title}\n\n🔘Size {size}"""
 
