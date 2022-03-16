@@ -221,7 +221,7 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                         file_id=file_id,
                         caption=f_caption
                         )
-                    await query.answer('🤖 Check PM, I have Sent Files In Pm 🤖',show_alert = True)
+                    await query.answer('🤖 Check PM, Param Sundari had Sent The Files In Pm 🤖',show_alert = True)
             except UserIsBlocked:
                 await query.answer('Unblock the bot mahn !',show_alert = True)
             except PeerIdInvalid:
@@ -250,7 +250,7 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                 if f_caption is None:
                     f_caption = LuciferMoringstar.FILE_CAPTIONS
                 buttons = [[
-                  InlineKeyboardButton('🧑‍💻 How To Own 🧑‍💻', url='https://t.me/howtodoyt')
+                  InlineKeyboardButton('🎥 For More Movies 🎥', url='https://t.me/mkv_rockers')
                   ]]                 
                 
                 await query.answer()
@@ -273,8 +273,8 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                  InlineKeyboardButton("ℹ️ Help", callback_data="help"),
                  InlineKeyboardButton("😎 About", callback_data="about") 
                  ],[
-                 InlineKeyboardButton("🗳 Deploy", url="https://youtu.be/LkY2feKT2k0"),
-                 InlineKeyboardButton("🤖 Update", url="https://t.me/HTDGROUPFORMOVIES")
+                 InlineKeyboardButton("🗳 Deploy", url="https://t.me/mastertheblasterr"),
+                 InlineKeyboardButton("🤖 Update", url="https://t.me/mkv_rockers")
                  ]]
             else:
                 buttons = [[
@@ -283,8 +283,8 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                  InlineKeyboardButton("ℹ️ Help", callback_data="bot_owner"),
                  InlineKeyboardButton("😎 About", callback_data="about") 
                  ],[
-                 InlineKeyboardButton("🗳 Deploy", url="https://youtu.be/LkY2feKT2k0"),
-                 InlineKeyboardButton("🤖 Update", url="https://t.me/HTDGROUPFORMOVIES")
+                 InlineKeyboardButton("🗳 Deploy", url="https://t.me/mastertheblasterr"),
+                 InlineKeyboardButton("🤖 Update", url="https://t.me/mkv_rockers")
                  ]]               
             await query.message.edit(text=START_MSG.format(mention=query.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
